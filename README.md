@@ -75,16 +75,16 @@ Analog input pins enable the microcontroller to read continuously changing signa
 
 Each team has at least one on the sensors listed below
 
-1. Analog Microphone
+1. **Analog Microphone**
 ![Image 10](Images/Image10.JPG)
 
-2. MQ-7 Carbon Monoxide Gas Sensor
+2. **MQ-7 Carbon Monoxide Gas Sensor**
 ![Image 11](Images/Image11.JPG)
 
-3. MQ-5 gas sensor (LPG, natural gas, coal gas)
+3. **MQ-5 gas sensor (LPG, natural gas, coal gas)**
 ![Image 12](Images/Image12.JPG)
 
-4. MQ-4 Methane Gas Sensor
+4. **MQ-4 Methane Gas Sensor**
 ![Image 13](Images/Image13.JPG)
 
 ### Connection Instructions
