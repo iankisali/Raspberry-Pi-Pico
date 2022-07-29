@@ -1,14 +1,36 @@
 # Welcome to the Makerthon - Raspberry Pi Pico
+# Raspberry Pi Pico
+**Raspberry Pi Pico** is a new low-cost, high-performance microcontroller board with flexible digital interfaces. 
+A Microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system.
+You don’t use monitors or keyboards, but program them to take their input from, and send their output to the input/output pins. 
+Using these programmable connections, you can light lights, make noises, send text to screens, and much more.
+
+A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
+#######################11
+We are going to use Raspberry Pi Pico and a sensor to read temperature and humidity values in our room.
+
 ## Micropython
 **MicroPython** is a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico. 
 You get an interactive prompt (the REPL) to execute commands immediately via USB Serial, and a built-in filesystem. 
 The Pico port of MicroPython includes modules for accessing low-level chip-specific hardware.
+
+We will learn how to use the beginner-friendly language MicroPython to write programs and connect hardware to make your Raspberry Pi Pico interact with the world around it. Using these skills, you can create your own electro‑mechanical projects, whether for fun or to make your life easier.
 ## How to install Micropython onto your Raspberry Pi Pico
 ### Requirements:
-- Raspberry Pi Pico
-- USB Cable
-- Thonny IDE Software
-- Micropython UF2 file
+### Software
+- MicroPython firmware for Raspberry Pi Pico
+- The Thonny Python IDE
+### Hardware
+- A Raspberry Pi Pico with soldered headers
+- A computer that can run the Thonny IDE and program a Raspberry Pi Pico
+- A micro USB cable
+- A breadboard and M-M jumper leads for connecting additional components (optional)
+
+We are going to learn :
+- How to load the MicroPython firmware onto a Raspberry Pi Pico
+- How to program a Raspberry Pi Pico using MicroPython
+- How to connect additional components to a Raspberry Pi Pico and write MicroPython programs to interact with them
+
 ### Installing Micropython into Raspberry Pi Pico
 1. Click [here](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) to download micropython UF2 file for the board.
 2. Hold the BOOTSEL button on your Raspberry Pi Pico and connect your pico to your computer via USB (Do not release the button)
@@ -24,7 +46,7 @@ An **IDE** is software that gives its users an environment for performing progra
 ### Installing and setting up Thonny
 1. Click [here](https://thonny.org/) to download the IDE version for your specific operating system.
 2. If you are on linux use the commands below to install Thonny:
-- `sudo apt install python3 python3-pip python3-tk` 
+- `sudo apt install thonny` 
 
 When opening Thonny for the first time, select **Standard Mode**. For some versions this choice will be made via a popup when you first open Thonny. 
 However for the Raspberry Pi release you should click on the text in the top right of the window to switch to **Regular Mode**. 
@@ -34,20 +56,30 @@ Normally the interpreter is the copy of Python running on Raspberry Pi, but it n
 Go to run > Select interpreter > Select Micropython (Raspberry Pi Pico) as shown
 ![Image 1](Images/Image1.JPG)
 
-You can now access the REPL from the Shell panel, try and print out a string as shown below.
+You can now access the REPL (read–eval–print loop) from the Shell panel, try and print out a string as shown below.
 ![Image 2](Images/Image2.JPG)
 
 ### Blinking the LED from Thonny
+MicroPython adds hardware-specific modules, such as `machine`, that you can use to program your Raspberry Pi Pico.
+
+Let’s create a `machine.Pin` object to correspond with the onboard LED, which can be accessed using GPIO pin 25.
+You can use the Timer module to set a `timer` that runs a function at regular intervals
+If you set the value of the LED to `1`, it turns on and setting it to `0` turns it off.
+
+Enter the following code, make sure you tap Enter after each line
 ![Image 3](Images/Image3.JPG)
 
-- First save the project on your computer as a “.py” file e.g blinky.py
+- First save the project on your computer as a “.py” file e.g `blinky.py`.
+**Tip** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file.
 - Navigate to File >> Save
 - Select “This computer” and save
+
 ![Image 4](Images/Image4.JPG)
 
 - To save the file onto your Raspberry Pi Pico
 - Navigate to File >> Save As
 - Select “Raspberry Pi Pico” this time.
+
 ![Image 5](Images/Image5.JPG)
 
 **Note** In order for your program to be executed every time the Pico starts your program has to be saved as “main.py”
@@ -110,7 +142,7 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 
 ## References
 - Raspberry Pi Documentation [link](https://www.raspberrypi.com/documentation/microcontrollers/)
-- Raspberry Pi Datasheet [link](https://datasheets.raspberrypi.com/)
+- Raspberry Pi Datasheet [link](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)
 - Micropython on Raspberry Pi Pico [link](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 - Getting Started with Micropython on Raspberry Pi Pico [link](https://hackspace.raspberrypi.com/books/micropython-pico)
 
@@ -119,12 +151,8 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 2. [Ian Kisali](https://iankisali.github.io/)
 3. [Alex Kimeu](https://alex-m-kimeu.github.io/)
 4. [Francis Gitau](https://francis-gitau.herokuapp.com)
+5. [Jane Mwaka](https://mwakaj.github.io/)
+6. [Hillary Chanzu](https://hilario-gomez.github.io/)
 5. [Catherine Nginya](http://www.linkedin.com/in/catherine-nginya-69aa8222b)
 6. [Laurine Chepkemoi](http://www.linkedin.com/in/laurine-chepkemoi)
-
-
-
-
-
-
-
+7. [Kenneth Njoroge](https://www.linkedin.com/in/kenneth-njoroge-2b2542211)
