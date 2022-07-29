@@ -36,12 +36,6 @@ Go to run > Select interpreter > Select Micropython (Raspberry Pi Pico) as shown
 You can now access the REPL from the Shell panel, try and print out a string as shown below.
 ![Image 2](Images/Image2.PNG)
 
-#Blinking the LED from Thonny
-![Image 2](Images/Image3.PNG)
-.First save the project on your computer as " .py" file e.g blinky .py
-.Navigate to file >> Save
-.Select "This Computer " and save.
 
-![Image 2](Images/Image4.PNG)
 
 
