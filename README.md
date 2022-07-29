@@ -31,3 +31,17 @@ Make sure your Raspberry Pi Pico is plugged into your computer and click on the 
 Normally the interpreter is the copy of Python running on Raspberry Pi, but it needs to be changed in order to run your programs in MicroPython on your Pico, clicking the current interpreter will open a drop down.
 
 Go to run > Select interpreter > Select Micropython (Raspberry Pi Pico) as shown
+![Image 1](Images/Image1.PNG)
+
+You can now access the REPL from the Shell panel, try and print out a string as shown below.
+![Image 2](Images/Image2.PNG)
+
+#Blinking the LED from Thonny
+![Image 2](Images/Image3.PNG)
+.First save the project on your computer as " .py" file e.g blinky .py
+.Navigate to file >> Save
+.Select "This Computer " and save.
+
+![Image 2](Images/Image4.PNG)
+
+
