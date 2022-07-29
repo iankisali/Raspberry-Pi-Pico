@@ -6,7 +6,8 @@ You don’t use monitors or keyboards, but program them to take their input from
 Using these programmable connections, you can light lights, make noises, send text to screens, and much more.
 
 A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
-#######################11
+![pico](Images/img1.jpg)
+
 We are going to use Raspberry Pi Pico and a sensor to read temperature and humidity values in our room.
 
 ## Micropython
