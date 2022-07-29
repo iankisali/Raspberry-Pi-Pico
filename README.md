@@ -19,15 +19,16 @@ The Pico port of MicroPython includes modules for accessing low-level chip-speci
 ##  Thonny
 **Thonny** is an integrated development environment (IDE) for Python that is designed for beginners. 
 It supports different ways of stepping through the code, step-by-step expression evaluation, detailed visualization of the call stack and a mode for explaining the concepts of references and heap.
+
 An **IDE** is software that gives its users an environment for performing programming, along with development as well as testing and debugging the application.
 ### Installing and setting up Thonny
 1. Click [here](https://thonny.org/) to download the IDE version for your specific operating system.
 2. If you are on linux use the commands below to install Thonny:
 - `sudo apt install python3 python3-pip python3-tk` 
 
-When opening Thonny for the first time, select *Standard Mode*. For some versions this choice will be made via a popup when you first open Thonny. 
-However for the Raspberry Pi release you should click on the text in the top right of the window to switch to *Regular Mode*. 
-Make sure your Raspberry Pi Pico is plugged into your computer and click on the word *Python* followed by a version number at the bottom-right of the Thonny window — this is the Python interpreter that Thonny is currently using. 
+When opening Thonny for the first time, select **Standard Mode**. For some versions this choice will be made via a popup when you first open Thonny. 
+However for the Raspberry Pi release you should click on the text in the top right of the window to switch to **Regular Mode**. 
+Make sure your Raspberry Pi Pico is plugged into your computer and click on the word **Python** followed by a version number at the bottom-right of the Thonny window — this is the Python interpreter that Thonny is currently using. 
 Normally the interpreter is the copy of Python running on Raspberry Pi, but it needs to be changed in order to run your programs in MicroPython on your Pico, clicking the current interpreter will open a drop down.
 
 Go to run > Select interpreter > Select Micropython (Raspberry Pi Pico) as shown
@@ -107,6 +108,16 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 ### Sample Code
 ![Image 18](Images/Image18.JPG)
 
+## References
+- Raspberry Pi Documentation [link](https://www.raspberrypi.com/documentation/microcontrollers/)
+- Raspberry Pi Datasheet [link](https://datasheets.raspberrypi.com/)
+- Micropython on Raspberry Pi Pico [link](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
+- Getting Started with Micropython on Raspberry Pi Pico [link](https://hackspace.raspberrypi.com/books/micropython-pico)
+
+# Gearbox  Academy Students' Portfolios 
+1. [Ian Kisali](https://iankisali.github.io/)
+2. [Alex Kimeu](https://alex-m-kimeu.github.io/)
+3.
 
 
 
