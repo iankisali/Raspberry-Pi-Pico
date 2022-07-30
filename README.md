@@ -149,6 +149,7 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 - Getting Started with Micropython on Raspberry Pi Pico [link](https://hackspace.raspberrypi.com/books/micropython-pico)
 
 # Gearbox  Academy Students' Portfolios and LinkedIn
+0. [Ngugi Ephy](https://www.linkedin.com/in/ngugi-ephy-2bb549143) - Academy Lead
 1. [Evelyne Otieno](https://evetim123.github.io/)
 2. [Samson Kamau](https://samcy316.github.io/Portfolio/)
 3. [Ian Kisali](https://iankisali.github.io/)
