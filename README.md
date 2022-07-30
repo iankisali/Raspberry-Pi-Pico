@@ -162,3 +162,4 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 6. [Laurine Chepkemoi](http://www.linkedin.com/in/laurine-chepkemoi)
 7. [Kenneth Njoroge](https://www.linkedin.com/in/kenneth-njoroge-2b2542211)
 8. [Victor Wainaina](https://www.linkedin.com/in/ian-kisali-bb4164209/)
+9. [Stephen Kimoi](https://www.linkedin.com/mwlite/in/stephen-kimoi-927856218)
