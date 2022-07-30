@@ -149,8 +149,10 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 
 # Gearbox  Academy Students' Portfolios and LinkedIn
 1. [Evelyne Otieno](https://evetim123.github.io/)
-2. [Ian Kisali](https://iankisali.github.io/)
-3. [Alex Kimeu](https://alex-m-kimeu.github.io/)
+2. [Samson Kamau](https://samcy316.github.io/Portfolio/)
+3. [Ian Kisali](https://iankisali.github.io/)
+4. [Alex Kimeu](https://alex-m-kimeu.github.io/)
+5. [Shawn](https://shawn-phy.github.io/)
 4. [Francis Gitau](https://francis-gitau.herokuapp.com)
 5. [Jane Mwaka](https://mwakaj.github.io/)
 6. [Hillary Chanzu](https://hilario-gomez.github.io/)
