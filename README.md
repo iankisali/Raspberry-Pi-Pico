@@ -47,7 +47,8 @@ An **IDE** is software that gives its users an environment for performing progra
 ### Installing and setting up Thonny
 1. Click [here](https://thonny.org/) to download the IDE version for your specific operating system.
 2. If you are on linux use the commands below to install Thonny:
-- `sudo apt install thonny` 
+- `sudo apt install python3 python3-pip python3-tk`
+- `bash <(wget -O - https://thonny.org/installer-for-linux)` 
 
 When opening Thonny for the first time, select **Standard Mode**. For some versions this choice will be made via a popup when you first open Thonny. 
 However for the Raspberry Pi release you should click on the text in the top right of the window to switch to **Regular Mode**. 
@@ -159,3 +160,4 @@ The received analog value is a 16 bit value ranging between (0 - 65535). This va
 5. [Catherine Nginya](http://www.linkedin.com/in/catherine-nginya-69aa8222b)
 6. [Laurine Chepkemoi](http://www.linkedin.com/in/laurine-chepkemoi)
 7. [Kenneth Njoroge](https://www.linkedin.com/in/kenneth-njoroge-2b2542211)
+8. [Victor Wainaina](https://www.linkedin.com/in/ian-kisali-bb4164209/)
